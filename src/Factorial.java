@@ -12,6 +12,7 @@ public class Factorial {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner (System.in);
+		System.out.println("Introdueix el número:");
 		int num = scan.nextInt();
 		System.out.println(factorial(num));
 		scan.close();
